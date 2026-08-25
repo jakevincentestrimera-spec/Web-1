@@ -6,7 +6,7 @@
 }
 
 body {
-  background: white;
+  background: black;
 }
 
 /* Sidebar */
@@ -20,7 +20,7 @@ body {
   height: 100vh;
   
   background: #1e3a8a;
-  color: : white ;
+  color:  white;
   
   transform: translateX(-100%);
   transition: .35s ease;
@@ -273,3 +273,33 @@ body {
    border-radius: 5px;
    color: black;
  }
+.webpage{
+  color: white;
+  position: relative;
+  top: 25px;
+  text-align: center;
+}
+.description{
+  position: relative;
+  top: 40px;
+  font-size: 50px;
+  color: white;
+  transition: 0.2s;
+}
+.learn{
+  position: relative;
+  top: 40px;
+  font-size: 50px;
+  color: white;
+  transition: 0.2s;
+}
+.adapt{
+  position: relative;
+  top: 40px;
+  font-size: 50px;
+  color: white;
+  transition: 0.2s;
+}
+h1:hover{
+  color: gold;
+}
