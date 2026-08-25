@@ -1,12 +1,12 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box ;
+  box-sizing: border-box;
   font-family: Verdana, sans-serif;
 }
 
 body {
-  background: #000000;
+  background: lightblue;
 }
 
 /* Sidebar */
@@ -15,16 +15,22 @@ body {
   position: fixed;
   top: 0;
   left: 0;
+  
   width: 260px;
   height: 100vh;
+  
   background: #1e3a8a;
-  color:  lightblue ;
+  color: white;
+  
   transform: translateX(-100%);
   transition: .35s ease;
+  
   z-index: 1000;
+  
   display: flex;
   flex-direction: column;
 }
+
 #menu.show {
   transform: translateX(0);
 }
@@ -108,7 +114,7 @@ body {
 
 .link:hover {
   padding: 20px 30px;
-  background: gold;
+  background: limegreen;
   color: black;
 }
 .logout{
@@ -195,14 +201,14 @@ body {
 .input-wrap {
   display: flex;
   align-items: center;
-  border: 3px solid limegreen;
+  border: 1px solid #e0e0e0;
   border-radius: 10px;
   padding: 0 12px;
   background: #fafafa;
   transition: border-color 0.15s, box-shadow 0.15s;
 }
 .input-wrap:focus-within {
-  border-color: darkgreen;
+  border-color: #0f3460;
   background: #fff;
   box-shadow: 0 0 0 3px rgba(15,52,96,0.08);
 }
@@ -236,66 +242,49 @@ body {
 }
 .log:hover { opacity: 0.88; }
 .log:active { transform: scale(0.98); }
-#show{
-  position: relative;
-  left: 60px;
-}
-  .home{
-   text-align: center;
-   background: #1e3a8a;
-   color: white;
- }
- .fontE{
+
+
+h1{
  text-align: center;
- background-color: gold;
- }
- .sign-in{
-   background-color: limegreen;
-   text-align: center;
-   color: blue;
   
- }
- .sub{
-   color: black;
- }
- .header{
-   border: 2px solid gold;
+}
+.app{
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  padding: 5px;
+  text-decoration: none;
+  height: 50px;
+  width: 50px;
+  font-size: 10px;
+  border-radius: 10px;
+  transition: 0.2s ease-in;
+}
+.app:hover{
+  color: black;
+
+  padding: 10px;
+  border-radius: 10px;
+}
+.assemble{
+  border-radius: 10px;
+  border: 2px solid black;
+}
+.cap{
+  color: blue;
+  position: relative;
+  left: 30px;
+}
+#coc1{
+  background-color: limegreen;
+  color: black;
+}.header{border: 2px solid gold;
    background-color: yellow;
    text-align: center;
    border-radius: 5px;
-   color: black;
- }
- .webpage{
-   color: white;
-   position: relative;
-   top: 25px;
- text-align: center;
- }
- .description{
-   position: relative;
-   top: 40px;
-   font-size: 50px;
-   text-align: center;
-   color: white;
-   transition: 0.2s;
-  
- }
- .learn{
-   position: relative;
-   top: 40px;
-   font-size: 50px;
-   text-align: center;
-   color: white;
-   transition: 0.2s;
- }
- .adapt{
-   position: relative;
-   top: 40px;
-   font-size: 50px;
-   text-align: center;
-   color: white;
-   transition: 0.2s;
- }
- h1:hover{
-   color: gold;
- }
+   color: black;}
+   .header2{
+     background: limegreen;
+   }
